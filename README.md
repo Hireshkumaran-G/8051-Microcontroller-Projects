@@ -38,6 +38,14 @@ Each project includes:
 7. **[Keypad with LCD](./07_Keypad_with_LCD)**
    - Reads user input from a 4x4 keypad and displays it on the LCD.
 
+8. **[Switch Debouce](./08_Switch_Debounce)**
+   - Demonstrates reliable push-button input by eliminating mechanical bouncing.
+   - Toggles an LED on each valid button press.
+   
+9. **[Buzzer_Melody](./09_Buzzer_Melody)**
+   - Generates simple beeps or melodies using a piezo buzzer.
+   - Demonstrates timing and output control on the 8051.
+
 ---
 
 ## 🛠 Requirements
