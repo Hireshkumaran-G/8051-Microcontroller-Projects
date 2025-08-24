@@ -1,26 +1,27 @@
 # Timer (8051 Microcontroller)
 
-## 📜 Description
-Using the 8051’s internal timer to generate delays.
+## Description
+This project demonstrates the use of the 8051 microcontroller’s internal timer to generate accurate delays, which can be used in various applications such as LED blinking, event timing, and signal generation.
 
-## 📂 Files
-- `Timer.c`
-- `Timer.hex`
-- `Timer.pdsprj`
+## Files
+- `timer.c` – Source code
+- `timer.hex` – Compiled HEX file
+- `timer.pdsprj` – Proteus simulation project
+- `timer_1.png`, `timer_2.png`, `timer_3.png` – Circuit Simulations
 
-## 🖼 Output
-![Timer Output 1](timer_output_1.png)  
-![Timer Output 2](timer_output_2.png)  
-![Timer Output 3](timer_output_3.png)
+## Circuit Simulation
+![Timer Circuit Simulation 1](timer_1.png)  
+![Timer Circuit Simulation 2](timer_2.png)  
+![Timer Circuit Simulation 3](timer_3.png)
 
-## 🛠 Requirements
-- Keil uVision
-- Proteus Design Suite
-- AT89C51/AT89S52 Microcontroller
+## Requirements
+- Keil uVision (for compiling the code)
+- Proteus Design Suite (for simulation)
+- AT89C51 / AT89S52 Microcontroller
 
-## 🔹 Procedure
-1. Open `Timer.c` in **Keil uVision**.
-2. Compile to generate `.hex`.
-3. Open the Proteus project file.
-4. Load `.hex` file into the microcontroller.
-5. Run simulation to observe delay-based operations.
+## Procedure
+1. Open `timer.c` in **Keil uVision**.
+2. Compile the code to generate the `.hex` file.
+3. Open `timer.pdsprj` in **Proteus**.
+4. Load the compiled `.hex` file into the microcontroller.
+5. Run the simulation to observe the delay-based operations.

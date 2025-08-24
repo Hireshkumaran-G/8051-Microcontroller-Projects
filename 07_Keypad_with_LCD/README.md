@@ -1,24 +1,27 @@
 # Keypad with LCD (8051 Microcontroller)
 
-## 📜 Description
-Integrating a matrix keypad with a 16x2 LCD to display pressed keys.
+## Description
+This project demonstrates interfacing a 4x4 matrix keypad with a 16x2 LCD using the 8051 microcontroller. When a key is pressed on the keypad, the corresponding character is detected and displayed on the LCD.
 
-## 📂 Files
-- `Keypad_with_LCD.c`
-- `Keypad_with_LCD.hex`
-- `Keypad_with_LCD.pdsprj`
+## Files
+- `keypad_with_lcd.c` – Source code
+- `keypad_with_lcd.hex` – Compiled HEX file
+- `keypad_with_lcd.pdsprj` – Proteus simulation project
+- `keypad_with_lcd.png` – Circuit Simulation
 
-## 🖼 Output
-![Keypad with LCD Output](keypad_with_lcd_output.png)  
+## Circuit Simulation
+![Keypad with LCD Circuit Simulation](keypad_with_lcd.png)
 
-## 🛠 Requirements
-- Keil uVision
-- Proteus Design Suite
-- AT89C51/AT89S52 Microcontroller
+## Requirements
+- Keil uVision (for compiling the code)
+- Proteus Design Suite (for simulation)
+- AT89C51 / AT89S52 Microcontroller
+- 16x2 LCD Display
+- 4x4 Matrix Keypad
 
-## 🔹 Procedure
-1. Open `Keypad_with_LCD.c` in **Keil uVision**.
-2. Compile the code to produce `.hex`.
-3. Open the `.pdsprj` file in **Proteus**.
-4. Load `.hex` file into the microcontroller.
-5. Run simulation and press keypad buttons to see them displayed on the LCD.
+## Procedure
+1. Open `keypad_with_lcd.c` in **Keil uVision**.
+2. Compile the code to generate the `.hex` file.
+3. Open `keypad_with_lcd.pdsprj` in **Proteus**.
+4. Load the `.hex` file into the microcontroller in Proteus.
+5. Run the simulation and press keypad buttons to view the corresponding characters on the LCD.

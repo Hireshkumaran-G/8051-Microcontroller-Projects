@@ -1,24 +1,26 @@
 # LED Blink (8051 Microcontroller)
 
-## 📜 Description
-A simple program to blink an LED at a fixed interval using the 8051 microcontroller.
+## Description
+This project demonstrates a basic LED blinking program using the 8051 microcontroller. The LED turns ON and OFF at a fixed time interval, serving as the simplest starting project for beginners.
 
-## 📂 Files
-- `LED_Blink.c` — C source code
-- `LED_Blink.hex` — Compiled HEX file
-- `LED_Blink.pdsprj` — Proteus design file
+## Files
+- `led_blink.c` – Source code
+- `led_blink.hex` – Compiled HEX file
+- `led_blink.pdsprj` – Proteus simulation project
+- `led_blink.png` – Circuit Simulation
 
-## 🖼 Output
-![LED Blink Output](led_blink_output.png)
+## Circuit Simulation
+![LED Blink Circuit Simulation](led_blink.png)
 
-## 🛠 Requirements
-- Keil uVision
-- Proteus Design Suite
-- AT89C51/AT89S52 Microcontroller
+## Requirements
+- Keil uVision (for compiling the code)
+- Proteus Design Suite (for simulation)
+- AT89C51 / AT89S52 Microcontroller
+- LED, resistor, and supporting hardware
 
-## 🔹 Procedure
-1. Open `LED_Blink.c` in **Keil uVision**.
-2. Compile the code (`F7` or Build option) to generate the `.hex` file.
-3. Open `LED_Blink.pdsprj` in **Proteus**.
-4. Double-click on the microcontroller component in Proteus and load the generated `.hex` file.
-5. Run the simulation to see the LED blinking.
+## Procedure
+1. Open `led_blink.c` in **Keil uVision**.
+2. Compile the code to generate the `.hex` file.
+3. Open `led_blink.pdsprj` in **Proteus**.
+4. Assign the generated `.hex` file to the microcontroller in the schematic.
+5. Run the simulation or upload to real hardware to observe the LED blinking.

@@ -1,24 +1,26 @@
-# BUZZER MELODY (8051 Microcontroller)
+# Buzzer Melody (8051 Microcontroller)
 
-## 📜 Description
-Generates simple beeps or melodies using a piezo buzzer connected to the 8051 microcontroller.
+## Description
+This project generates simple beeps or melodies using a piezo buzzer connected to the 8051 microcontroller. Different frequencies are produced by toggling a port pin at varying delays, creating musical tones.
 
-## 📂 Files
-- `Buzzer_Melody.c` — C source code
-- `Buzzer_Melody.hex` — Compiled HEX file
-- `Buzzer_Melody.pdsprj` — Proteus design file
+## Files
+- `buzzer_melody.c` — Source code
+- `buzzer_melody.hex` — Compiled HEX file
+- `buzzer_melody.pdsprj` — Proteus simulation project
+- `buzzer_melody.png` — Circuit Simulation 
 
-## 🖼 Output
-![BUZZER MELODY Output](buzzer_melody_output.png)
+## Circuit Simulation
+![Buzzer Melody Circuit Simulation](buzzer_melody.png)
 
-## 🛠 Requirements
-- Keil uVision
-- Proteus Design Suite
-- AT89C51/AT89S52 Microcontroller
+## Requirements
+- Keil uVision (for compiling code)
+- Proteus Design Suite (for simulation)
+- AT89C51 / AT89S52 Microcontroller
+- Piezo Buzzer (SOUNDER)
 
-## 🔹 Procedure
-1. Open `Buzzer_Melody.c` in **Keil uVision**.
-2. Compile the code (`F7` or Build option) to generate the `.hex` file.
-3. Open `Switch_Debounce.pdsprj` in **Proteus**.
-4. Double-click on the microcontroller component in Proteus and load the generated `.hex` file.
-5. Run the simulation to see the LED blinking.
+## Procedure
+1. Open `buzzer_melody.c` in **Keil uVision**.
+2. Compile the code (`F7` or **Build**) to generate the `.hex` file.
+3. Open `buzzer_melody.pdsprj` in **Proteus**.
+4. Double-click the microcontroller in the schematic and load the generated `.hex` file.
+5. Run the simulation to hear the buzzer generating beeps or melodies.

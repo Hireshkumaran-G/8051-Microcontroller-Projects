@@ -1,24 +1,26 @@
 # LCD Display Interface (8051 Microcontroller)
 
-## 📜 Description
-Interfacing a 16x2 LCD Display with the 8051 microcontroller to display text.
+## Description
+This project demonstrates interfacing a 16x2 LCD with the 8051 microcontroller to display custom text and messages. It highlights how to initialize the LCD, send commands, and display characters.
 
-## 📂 Files
-- `LCD_Display.c`
-- `LCD_Display.hex`
-- `LCD_Display.pdsprj`
+## Files
+- `lcd_display.c` – Source code
+- `lcd_display.hex` – Compiled HEX file
+- `lcd_display.pdsprj` – Proteus simulation project
+- `lcd_display.png` – Circuit Simulation 
 
-## 🖼 Output
-![LCD Display Output](lcd_display_output.png)
+## Circuit Simulation
+![LCD Display Circuit Simulation](lcd_display.png)
 
-## 🛠 Requirements
-- Keil uVision
-- Proteus Design Suite
-- AT89C51/AT89S52 Microcontroller
+## Requirements
+- Keil uVision (for compiling the code)
+- Proteus Design Suite (for simulation)
+- AT89C51 / AT89S52 Microcontroller
+- 16x2 LCD Display
 
-## 🔹 Procedure
-1. Open `LCD_Display.c` in **Keil uVision**.
-2. Compile the code to create `.hex`.
-3. Open the `.pdsprj` in **Proteus**.
-4. Load `.hex` file into the microcontroller.
-5. Run simulation to display text on LCD.
+## Procedure
+1. Open `lcd_display.c` in **Keil uVision**.
+2. Compile the code to generate the `.hex` file.
+3. Open `lcd_display.pdsprj` in **Proteus**.
+4. Load the `.hex` file into the microcontroller in Proteus.
+5. Run the simulation to view the text displayed on the LCD.

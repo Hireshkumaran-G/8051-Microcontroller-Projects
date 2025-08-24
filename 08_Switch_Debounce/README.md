@@ -1,24 +1,27 @@
-# Switch_Debounce (8051 Microcontroller)
+# Switch Debounce (8051 Microcontroller)
 
-## 📜 Description
-Demonstrates reliable push-button input detection by eliminating false triggers caused by mechanical bouncing. An LED toggles on each valid button press.
+## Description
+This project demonstrates how to handle push-button inputs reliably by implementing a debounce mechanism. Mechanical switches often cause multiple rapid transitions (bouncing) when pressed or released. The debounce logic ensures that only a single valid press is detected, toggling an LED accordingly.
 
-## 📂 Files
-- `Switch_Debounce.c` — C source code
-- `Switch_Debounce.hex` — Compiled HEX file
-- `Switch_Debounce.pdsprj` — Proteus design file
+## Files
+- `switch_debounce.c` — Source code
+- `switch_debounce.hex` — Compiled HEX file
+- `switch_debounce.pdsprj` — Proteus simulation project
+- `switch_debounce.png` — Circuit Simulation 
 
-## 🖼 Output
-![Switch Debounce Output](switch_debounce_output.png)
+## Circuit Simulation
+![Switch Debounce Circuit Simulation](switch_debounce.png)
 
-## 🛠 Requirements
-- Keil uVision
-- Proteus Design Suite
-- AT89C51/AT89S52 Microcontroller
+## Requirements
+- Keil uVision (for compiling code)
+- Proteus Design Suite (for simulation)
+- AT89C51 / AT89S52 Microcontroller
+- Push Button
+- LED
 
-## 🔹 Procedure
-1. Open `Switch_Debounce.c` in **Keil uVision**.
-2. Compile the code (`F7` or Build option) to generate the `.hex` file.
-3. Open `Switch_Debounce.pdsprj` in **Proteus**.
-4. Double-click on the microcontroller component in Proteus and load the generated `.hex` file.
-5. Run the simulation to see the LED blinking.
+## Procedure
+1. Open `switch_debounce.c` in **Keil uVision**.
+2. Compile the code (`F7` or **Build**) to generate the `.hex` file.
+3. Open `switch_debounce.pdsprj` in **Proteus**.
+4. Double-click the microcontroller in the schematic and load the generated `.hex` file.
+5. Run the simulation and press the button to observe the LED toggling reliably without false triggers.
