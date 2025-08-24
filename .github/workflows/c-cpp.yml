@@ -1,0 +1,25 @@
+name: 8051 Projects Build
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Install SDCC
+      run: sudo apt-get update && sudo apt-get install -y sdcc
+
+    - name: Compile all 8051 C files
+      run: |
+        for file in */*.c; do
+          echo "Compiling $file"
+          sdcc "$file" || exit 1
+        done
